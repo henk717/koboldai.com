@@ -1,6 +1,6 @@
 # [KoboldAI.net](https://koboldai.net)
 
-KoboldAI.net is the online hosted version of KoboldAI Lite that does not require KoboldAI or [Koboldcpp](/Koboldcpp) to be installed.
+KoboldAI.net is the online hosted version of KoboldAI Lite that does not require KoboldAI or [Koboldcpp](Koboldcpp.md) to be installed.
 Want to use KoboldAI Lite with the AI Horde, OpenAI API or simply want the latest version of Kobold AI Lite? You can use the AI menu to load up your favorite AI provider.
 
 This UI is known to be compatible with the following AI providers (And many more):
@@ -25,7 +25,7 @@ For more information about KoboldAI Lite check the KoboldAI Lite webpage on our 
 ---
 ### FAQ
 ##### Can KoboldAI.net be used as an API?
-No, KoboldAI.net runs entirely in your browser and does provide an API or model hosting, if you are asked for a Kobold AI API we recommend you to use [Koboldcpp](/Koboldcpp).
+No, KoboldAI.net runs entirely in your browser and does provide an API or model hosting, if you are asked for a Kobold AI API we recommend you to use [Koboldcpp](Koboldcpp.md).
 The default service on KoboldAI.net is AI Horde which does offer its own API available at https://aihorde.net/api but this API is not compatible with programs requiring the KoboldAI API.
 For the API's of the other providers please refer to their documentation.
 
@@ -37,7 +37,7 @@ In some cases a service did not configure their API correctly and we have to use
 When you use KoboldAI Lite your stories are saved in your own browser, no data is sent to us. This does mean that you can loose them if you delete your cookies, so always make sure to use the save button to download a json file of your story to keep it safe.
 
 ##### How private is my session?
-What you send to the AI is as private as the AI Service you send it to. For AI Horde this means that your story will be sent to a random volunteer who may or may not be able to see your story. Because of this we recommend you to avoid any identifiable information in your stories when using this provider. If you need more privacy host your own [KoboldCpp](/Koboldcpp) instance or use a different AI provider from the list which privacy policy you agree with.
+What you send to the AI is as private as the AI Service you send it to. For AI Horde this means that your story will be sent to a random volunteer who may or may not be able to see your story. Because of this we recommend you to avoid any identifiable information in your stories when using this provider. If you need more privacy host your own [KoboldCpp](Koboldcpp.md) instance or use a different AI provider from the list which privacy policy you agree with.
 
 ##### I want to use a program, provider or proxy for OpenAI that isn't operated by OpenAI, can I bring my own OpenAI API link?
 Yes! You can specify your own link to any OpenAI compatible provider or software. We support both the regular Completions (Recommended) and Chat Completions. You can even use this feature to test KoboldCpp's OpenAI compatibility.

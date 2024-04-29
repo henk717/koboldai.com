@@ -1,3 +1,4 @@
 site_name: KoboldAI
 theme:
     name: dracula
+site_url: https://koboldai.com/
