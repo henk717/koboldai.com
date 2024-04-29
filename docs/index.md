@@ -8,4 +8,4 @@ We are still constructing our website, for now you can find the following projec
 
 [KoboldAI United](https://koboldai.org/united) - Need more than just GGUF or a UI more focussed on writing? KoboldAI United is for you.
 
-[KoboldAI DIscord](https://koboldai.org/discord) - Meet likeminded AI enthousiasts, our discord community ranges from beginners to KoboldAI to model tuners and industry proffesionals. You fit right in!
+[KoboldAI Discord](https://koboldai.org/discord) - Meet likeminded AI enthousiasts, our discord community ranges from beginners to KoboldAI to model tuners and industry proffesionals. You fit right in!
