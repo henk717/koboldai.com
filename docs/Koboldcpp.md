@@ -1,4 +1,4 @@
-# The KoboldCpp FAQ and Knowledgebase
+# KoboldCpp
 Welcome to the KoboldCpp knowledgebase! If you have issues with KoboldCpp, please check if your question is answered here or in one of the link reference first. If not, you can open an issue on Github, or contact us on our [KoboldAI Discord Server](https://koboldai.org/discord). You can the main developer there as Concedo, or just ask around (we have plenty of people around to help).
 
 ## Introduction
