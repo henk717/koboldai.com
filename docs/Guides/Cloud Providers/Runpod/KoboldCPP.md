@@ -4,19 +4,25 @@ Runpod is a cloud hosting provider with a focus on GPU rentals that you can pay 
 
 Strengths of Runpod:
 
-- Easiest to use of all the cloud providers
+- Easiest to use of all the cloud providers.
 
 - Secure Cloud is consistent, community cloud is cheaper.
 
-- Large variety of GPU's
+- Large variety of GPU's.
 
-- CUDA support is up to date
+- CUDA support is up to date.
+
+- Docker based, so you run our official runtime with maximum support.
+
+- Very fast downloads in a lot of the locations (We measured as high as 600mb/s of actual download speed in Sweden)!
+
+- Cheaper than many providers.
 
 Weaknesses of Runpod:
 
-- More expensive than VastAI.
+- More expensive than VastAI / TensorDock which are both harder to use.
 
-- GPU's you want may not always be available
+- The GPU's you want may not always be available.
 
 ### Using the KoboldCpp template with the default settings and default model
 1. Visit [https://koboldai.org/runpodcpp](https://koboldai.org/runpodcpp) to be taken to Runpod with the correct template loaded.
