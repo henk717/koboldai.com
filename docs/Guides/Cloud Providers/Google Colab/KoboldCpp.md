@@ -55,5 +55,5 @@ Your session is stored inside of your browser so you will have time to download 
 ##### This is a Google service, is it private?
 KoboldCpp's Notebook by default does not log any of the prompts you are doing. Colab can realistically see the model you are using and how much you are using it (For prompts they have to scrape memory). We do not expect them to monitor what you submit to the AI.
 
-#### I need an OpenAI API for something I am working on, can I use this notebook?
+##### I need an OpenAI API for something I am working on, can I use this notebook?
 Yes, one of the links that you will receive once it is fully up and running is an OpenAI API link. This makes it great for your OpenAI based applications.
