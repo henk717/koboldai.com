@@ -16,8 +16,6 @@ Strengths of Runpod:
 
 - Very fast downloads in a lot of the locations (We measured as high as 600mb/s of actual download speed in Sweden)!
 
-- Cheaper than many providers.
-
 Weaknesses of Runpod:
 
 - More expensive than VastAI / TensorDock which are both harder to use.
