@@ -1,6 +1,6 @@
 # KoboldCpp NotivaAI
 ### What is NotivaAI?
-NotivaAI is a cloud hosting provider with a focus on GPU rentals that you can pay per minute. They offer a various GPU's at competitive prices. They work with our project to ensure their service is easy to use for KoboldCpp users. In this guide we will focus on setting up the KoboldCpp template.
+NotivaAI is a cloud hosting provider with a focus on GPU rentals that you can pay per minute. They offer various GPU's at competitive prices. They work with our project to ensure their service is easy to use for KoboldCpp users. In this guide we will focus on setting up the KoboldCpp template.
 
 Strengths of NotivaAI:
 
