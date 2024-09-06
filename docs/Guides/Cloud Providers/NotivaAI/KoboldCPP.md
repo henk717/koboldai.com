@@ -20,7 +20,7 @@ Weaknesses of NotivaAI:
 - The GPU's you want may not always be available.
 
 ### Using KoboldCpp on NotivaAI with the default settings and default model
-1. Visit [https://koboldai.org/novitacpp](https://koboldai.org/notivacpp) to be taken to NotivaAI with the correct settings loaded.
+1. Visit [https://koboldai.org/novitacpp](https://koboldai.org/novitacpp) to be taken to NotivaAI with the correct settings loaded.
 2. All GPU's can run on the default settings, pick the cheapest GPU that is available and click its Deploy button.
 3. Click Next and then click on Deploy.
 4. Your instance is now launching. You can monitor the (down)loading progress by clicking on the log button and then switching to Instance Logs.
@@ -35,7 +35,7 @@ Weaknesses of NotivaAI:
 
 ### Using your own GGUF models with the KoboldCpp on NovitaAI
 
-1. Visit [https://koboldai.org/novitacpp](https://koboldai.org/notivacpp) to be taken to NotivaAI with the correct settings loaded.
+1. Visit [https://koboldai.org/novitacpp](https://koboldai.org/novitacpp) to be taken to NotivaAI with the correct settings loaded.
 2. Select a GPU big enough to fit your model and click its Deploy button.
 3. Paste the link to the GGUF you wish to use in the KCPP_MODELS field seperate the multiple parts in the correct order with a comma if there are multiple parts. (You can do the same for the image gen model)
 4. Click Next and then click on Deploy.
