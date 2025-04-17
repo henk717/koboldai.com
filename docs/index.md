@@ -1,11 +1,25 @@
-# Welcome
+# Welcome to KoboldAI
 
-We are still constructing our website, for now you can find the following projects on their Github Pages!
+## Overview
 
-[KoboldAI.net](https://koboldai.net) - Instant access to the KoboldAI Lite UI without the need to run the AI yourself!
+KoboldAI delivers a combination of four solid foundations for your local AI needs.
 
-[KoboldCpp](https://koboldai.org/cpp) - Run GGUF models on your own PC using your favorite frontend (KoboldAI Lite included), OpenAI API compatible
+**KoboldCPP**: 
+   Our local LLM API server for driving your backend
 
-[KoboldAI United](https://koboldai.org/united) - Need more than just GGUF or a UI more focussed on writing? KoboldAI United is for you.
+**KoboldAI Lite**: 
+   Our lightweight user-friendly interface for accessing your AI API endpoints
 
-[KoboldAI Discord](https://koboldai.org/discord) - Meet likeminded AI enthousiasts, our discord community ranges from beginners to KoboldAI to model tuners and industry proffesionals. You fit right in!
+**KoboldAI.net**:
+   Where we deliver KoboldAI Lite as web service for free with the same flexibilities as running it locally
+
+**Partnership with AI Horde**: 
+   To bring free user-driven LLM access to everyone, we support AI Horde with presets in our software (fully optionally)
+
+## Start
+
+Everything you want to know for your start with KoboldAI's solutions you find on this website.
+
+## Community
+
+Consider joining our community for support, discussions, and sharing on our [Discord Server](https://discord.gg/koboldai)

@@ -1,4 +1,4 @@
-# KoboldCpp Colab
+# KoboldCpp on Google Colab
 ### What is Google Colab?
 Google Colab is a platform for AI researchers / programmers to get free compute for their AI experiments.
 

@@ -1,0 +1,234 @@
+/* KoboldAI Theme - Custom CSS */
+
+:root {
+  --md-primary-fg-color: #337ab7;
+  --md-primary-fg-color--light: #337ab7;
+  --md-primary-fg-color--dark: #337ab7;
+  --md-accent-fg-color: #4db4ea;
+  --md-typeset-a-color: #a673e8;
+  --md-accent-fg-color: #337ab7;
+  --md-typeset-a-color: #337ab7;
+  --md-code-hl-function-color: #337ab7;
+  --md-code-hl-constant-color: #337ab7;
+  
+  /* KoboldAI's dark theme colors */
+  --kai-bg-color: #1a1a1a;
+  --kai-bg-color-light: #242424;
+  --kai-bg-color-top: #337ab7;
+  --kai-text-color: #e0e0e0;
+  --kai-border-color: #333333;
+  --kai-accent-color: #337ab7;
+  --kai-accent-color-light: #337ab7;
+  --kai-button-hover: #333333;
+}
+
+/* Overall background */
+.md-main, .md-main__inner, .md-content, .md-sidebar {
+  background-color: var(--kai-bg-color);
+  color: var(--kai-text-color);
+}
+
+/* Navigation */
+.md-nav {
+  color: #4db4ea;
+}
+
+.md-nav__item .md-nav__link--active {
+  color: #129c00;
+}
+
+.md-nav__link:focus, .md-nav__link:hover {
+  color: #337ab7;
+}
+
+/* Header */
+.md-header {
+  background-color: var(--kai-bg-color-top);
+  color: var(--kai-text-color);
+  box-shadow: 0 0 0.2rem rgba(0,0,0,.1), 0 0.2rem 0.4rem rgba(0,0,0,.2);
+  height: 3.5rem;
+}
+
+.md-header__inner {
+  padding: 0.6rem;
+  height: 3.5rem;
+}
+
+.md-header__button.md-logo {
+  margin: 0.4rem;
+  padding: 0.4rem;
+}
+
+.md-header__button.md-logo img {
+  height: 4.9rem;
+  width: auto;
+}
+
+.md-search {
+  margin-right: 1rem;
+  padding: 0.6rem 0;
+}
+
+.md-header__title {
+  margin-left: 1rem;
+  line-height: 2.6rem;
+}
+
+.md-header__topic {
+  font-size: 1.4rem;
+}
+
+.md-header__button {
+  margin: 0.8rem;
+}
+
+.md-search__input {
+  background-color: var(--kai-bg-color-light);
+  color: var(--kai-text-color);
+}
+
+.md-search__input::placeholder {
+  color: #999999;
+}
+
+/* Content */
+.md-typeset {
+  color: var(--kai-text-color);
+}
+
+.md-typeset h1, .md-typeset h2, .md-typeset h3, .md-typeset h4 {
+  color: var(--kai-text-color);
+}
+
+.md-typeset h1, .md-typeset h2 {
+  border-bottom: 1px solid var(--kai-border-color);
+  padding-bottom: 0.5rem;
+}
+
+.md-typeset a {
+  color: var(--kai-accent-color-light);
+}
+
+.md-typeset a:hover {
+  color: var(--kai-text-color);
+  text-decoration: underline;
+}
+
+/* Code Blocks */
+.md-typeset code, .md-typeset pre {
+  background-color: var(--kai-bg-color-light);
+  color: #e0e0e0;
+  border-radius: 4px;
+}
+
+.md-typeset pre {
+  border: 1px solid var(--kai-border-color);
+}
+
+/* Admonitions / Notes */
+.md-typeset .admonition, .md-typeset details {
+  background-color: var(--kai-bg-color-light);
+  border-left: 4px solid var(--kai-accent-color);
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.md-typeset .admonition-title, .md-typeset summary {
+  background-color: rgba(131, 52, 227, 0.1);
+}
+
+/* Tables */
+.md-typeset table:not([class]) {
+  border: 1px solid var(--kai-border-color);
+  box-shadow: none;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--kai-bg-color-light);
+  color: var(--kai-text-color);
+  border-bottom: 1px solid var(--kai-border-color);
+}
+
+.md-typeset table:not([class]) tr:hover {
+  background-color: rgba(131, 52, 227, 0.05);
+}
+
+/* Footer */
+.md-footer {
+  background-color: var(--kai-bg-color);
+  color: var(--kai-text-color);
+}
+
+.md-footer-nav {
+  background-color: var(--kai-bg-color-light);
+}
+
+.md-footer-meta {
+  background-color: var(--kai-bg-color);
+  border-top: 1px solid var(--kai-border-color);
+}
+
+/* Buttons */
+.md-typeset .md-button {
+  color: var(--kai-text-color);
+  border: 1px solid var(--kai-border-color);
+}
+
+.md-typeset .md-button:hover {
+  background-color: var(--kai-button-hover);
+  border-color: var(--kai-accent-color);
+  color: var(--kai-text-color);
+}
+
+.md-typeset .md-button--primary {
+  background-color: var(--kai-accent-color);
+  border-color: var(--kai-accent-color);
+  color: #ffffff;
+}
+
+.md-typeset .md-button--primary:hover {
+  background-color: var(--kai-accent-color-light);
+  border-color: var(--kai-accent-color-light);
+  color: #ffffff;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--kai-bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--kai-border-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--kai-accent-color);
+}
+
+/* Mobile Adjustments */
+@media screen and (max-width: 76.1875em) {
+  .md-nav--primary .md-nav__title[for=__drawer] {
+    background-color: var(--kai-bg-color);
+    color: var(--kai-text-color);
+    height: 3.5rem; /* Match header height */
+    padding-top: 1.4rem; /* Adjust title position */
+  }
+  
+  .md-nav--primary .md-nav__title {
+    background-color: var(--kai-bg-color);
+    color: var(--kai-text-color);
+    height: 3.5rem; /* Match header height */
+    padding-top: 1.4rem; /* Adjust title position */
+  }
+
+  /* Adjust content padding to account for taller header */
+  .md-main__inner {
+    padding-top: 3.5rem;
+  }
+}
