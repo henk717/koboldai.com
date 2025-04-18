@@ -1,4 +1,4 @@
-site_name: KoboldAI - we do local LLM
+site_name: KoboldAI
 theme:
   name: material
   custom_dir: overrides
