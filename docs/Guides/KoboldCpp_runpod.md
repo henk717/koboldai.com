@@ -1,4 +1,4 @@
-# KoboldCpp Runpod
+# KoboldCpp on Runpod
 ### What is Runpod?
 Runpod is a cloud hosting provider with a focus on GPU rentals that you can pay per minute. They offer a wide range of GPU's at competitive prices. The best part is that they allow their community to make templates so that you can get up and running without having to do any difficult setup. In this guide we will focus on setting up the KoboldCpp template.
 

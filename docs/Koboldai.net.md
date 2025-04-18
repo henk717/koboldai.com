@@ -1,27 +1,22 @@
-# [KoboldAI.net](https://koboldai.net)
+# KoboldAI.net 
 
-KoboldAI.net is the online hosted version of KoboldAI Lite that does not require KoboldAI or [Koboldcpp](Koboldcpp.md) to be installed.
-Want to use KoboldAI Lite with the AI Horde, OpenAI API or simply want the latest version of Kobold AI Lite? You can use the AI menu to load up your favorite AI provider.
+**Use KoboldAI Lite online, for free, now!**
 
-This UI is known to be compatible with the following AI providers (And many more):
+KoboldAI.net is the free online hosted version of KoboldAI Lite that does not require KoboldAI Lite or KoboldCpp to be installed locally and at the same time values your privacy.
+
+We give you the opportunity to use KoboldAI Lite directly with AI Horde, but you can load up your favorite AI provider in Lite's AI menu and start using one of the known compatible AI API providers:
 
 - AI Horde
-
 - KoboldAI API / KoboldCpp API
-
 - OpenAI API providers
-
 - Google Gemini API
-
 - OpenRouter API
-
 - Cohere API
-
 - Claudee by Antropic AI
 
-For more information about KoboldAI Lite check the KoboldAI Lite webpage on our site.
+(and many more, that support the common interfaces)
 
-### [Click here to go to KoboldAI.net and see it for yourself!](https://koboldai.net)
+### [>>> Click here to go to KoboldAI.net <<< - see and use it for yourself!<br>Our best AI interface: lite, client-focused, secure, user-friendly and free.](https://koboldai.net)
 ---
 ### FAQ
 ##### Can KoboldAI.net be used as an API?
