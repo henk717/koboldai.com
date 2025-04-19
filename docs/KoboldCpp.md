@@ -14,7 +14,7 @@ We also bundle KoboldCpp with a StableDiffusion WebUI and our flagship UI Kobold
 
 Our optional GUI Starter for easy setup:
 
-![KoboldAI KoboldCpp](../img/KoboldCpp.png "KoboldAI KoboldCpp")
+![KoboldAI KoboldCpp](img/KoboldCpp.png "KoboldAI KoboldCpp")
 
 ##KoboldCpp knowledgebase introduction
 
