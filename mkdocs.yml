@@ -1,7 +1,6 @@
 site_name: KoboldAI - we do local LLM
 theme:
   name: material
-  custom_dir: overrides
   palette:
     scheme: slate
     primary: deep blue

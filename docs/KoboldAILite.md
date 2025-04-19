@@ -6,7 +6,7 @@ KoboldAI Lite is a lightweight, standalone Web UI for KoboldCpp, KoboldAI Client
 **After starting KoboldCpp (default port is 5001), navigate your local browser such as Chrome, Firefox or Safari to http://localhost:5001 and KoboldAI Lite will be launched.**
 
 How KoboldAI Lite welcomes you in Chrome with our classic UI:
-![KoboldAI Lite](../img/KoboldAILite.png "KoboldAI Lite")
+![KoboldAI Lite](img/KoboldAILite.png "KoboldAI Lite")
 
 We also provide KoboldAI Lite as KoboldAI.net read our [definition of KoboldAI.net](Koboldai.net.md) if you don't want to setup KoboldCpp locally.
 

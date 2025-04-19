@@ -13,9 +13,6 @@ KoboldAI delivers a combination of four solid foundations for your local AI need
 **KoboldAI.net**:
    Where we deliver KoboldAI Lite as web service for free with the same flexibilities as running it locally
 
-**Partnership with AI Horde**: 
-   To bring free user-driven LLM access to everyone, we support AI Horde with presets in our software (fully optionally)
-
 ## Start
 
 Everything you want to know for your start with KoboldAI's solutions you find on this website.
