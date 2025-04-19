@@ -217,7 +217,8 @@
     background-color: var(--kai-bg-color);
     color: var(--kai-text-color);
     height: 3.5rem; /* Match header height */
-    padding-top: 1.4rem; /* Adjust title position */
+    padding-top: 0.9rem; /* Adjust title position for logo*/
+    padding-left: 3.5rem; /* Adjust title position for logo*/
   }
   
   .md-nav--primary .md-nav__title {
@@ -225,10 +226,5 @@
     color: var(--kai-text-color);
     height: 3.5rem; /* Match header height */
     padding-top: 1.4rem; /* Adjust title position */
-  }
-
-  /* Adjust content padding to account for taller header */
-  .md-main__inner {
-    padding-top: 3.5rem;
   }
 }

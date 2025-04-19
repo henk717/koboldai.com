@@ -1,6 +1,7 @@
 site_name: KoboldAI
 theme:
   name: material
+  custom_dir: overrides
   palette:
     scheme: slate
     primary: deep blue
