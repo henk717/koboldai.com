@@ -1,4 +1,5 @@
 site_name: KoboldAI
+site_url: https://koboldai.com/
 theme:
   name: material
   custom_dir: overrides
