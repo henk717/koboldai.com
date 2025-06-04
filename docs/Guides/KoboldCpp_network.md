@@ -34,5 +34,7 @@ In admin, you can enable remote changes to launcher settings, the settings here 
 
 ## Beginner Dictionary:
 IP Address: IP address is what other devices use to route traffic to your computer. You have multiple IP addresses, the Private IP is the computer identifier within your home network, the public ip is the network identifier outside your home. Kobold only cares about your Private IP
+
 Port: Computers have 65535 different communication options to separate which program is being talked to. web traffic (your browser) uses 80, 8080, 443 by default, but can be specified to use an alternative by adding :\<port number\> to the primary URL (ie: 8.8.8.8 is dns.google.com, but 8.8.8.8:53 is the DNS port of googles dns)
+
 SSL: Standard web encryption method to hide private traffic from your ISP and other clients on the network. While it is not perfect, it is useful for every day purposes.

@@ -1,4 +1,4 @@
-## Loaded Files
+# Loaded Files
 Every text generation related file you can load
 
 ## Loaded Files tab in Launcher UI

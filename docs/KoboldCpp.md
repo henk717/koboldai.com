@@ -36,11 +36,12 @@ Other formats such as safetensors and pytorch.bin models are not natively suppor
 
 ### **Where can I find or download GGUF and GGML models for KoboldCpp?**  
 - GGML models can be found uploaded on [Huggingface](https://huggingface.co/models), simply by searching for `GGML` or `GGUF`. They should be a file in `.bin` or `.gguf` format
-- A large selection of high quality models can also be found on [TheBloke's Huggingface Repo](https://huggingface.co/TheBloke), look for GGUF/GGML. 
+- Compatible modern models can be found at https://huggingface.co/mradermacher/ and https://huggingface.co/bartowski. 
+- A large older selection of high quality models can also be found on [TheBloke's Huggingface Repo](https://huggingface.co/TheBloke), look for GGUF/GGML. 
 - Lastly, you can also convert the models yourself, using the [appropriate conversion tools](https://github.com/LostRuins/koboldcpp/releases/download/v1.50.1/koboldcpp_ggml_tools_21nov.zip). 
 
 ### **What's the difference between GGUF and GGML formats**  
-GGUF is a newer format designed to (hopefully) be more future proof. As of Oct 2023, it is the latest and recommended format for LLAMA and LLAMA2 models. For other architectures, the old format is still used. KoboldCpp remains compatible with any version of both formats.
+GGUF is a newer format designed to (hopefully) be more future proof. As of Oct 2023, it is the latest and recommended format for LLAMA and LLAMA2 models. For architectures before 2024, the old format is still used. KoboldCpp remains compatible with any version of both formats.
 
 ### **What are the differences between the different files for each model? Do I need them all? Which Quantization? F16? Q4_0? Q5_1?**  
 No, you don't need all the files, just a single one. Each GGML model is just a single .bin or .gguf file. The multiple files represent different compression levels of each model, from worst to best (least to most bits-per-weight) in ascending order. A Q4_0 of a specific model will be smaller than a Q5_1, but of slightly lower quality. [Read more here](https://www.reddit.com/r/LocalLLaMA/comments/13l0j7m/a_comparative_look_at_ggml_quantization_and/).

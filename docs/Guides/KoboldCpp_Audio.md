@@ -10,7 +10,7 @@ KoboldCPP supports both Text to Speech and Speech to Text.
     - Converts audio tokens to speech, can sometimes work with singing and similar as well, but not nearly as good as a model focused on music
     - https://huggingface.co/koboldcpp/tts contains prequanted OuteTTS 1b and 500m
 - #### OuteTTS Threads
-    - See threads in Hardware section
+    - See [Threads](KoboldCpp_Hardware.md) in Hardware section
 - #### OuteTTS Max Tokens
     - How many tokens should be generated and convert to speech
 - #### WavTokenizer Model (Text-To-Speech)

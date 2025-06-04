@@ -78,16 +78,23 @@ Full descriptions of launcher settings:
     - You can download from HuggingFace or a few other smaller options a GGUF or GGML file, GGML being an older and no longer recommended format.
     - If you do not feel like downloading manually, you can use HF Search to automatically download the model
 
-Further reading: 
-
-### beginner dictionary:
+### Beginner Dictionary:
 Prompt: Everything before the AI responds. ie: this is your question, the previous conversation after reloading, the information in the context pane, and any previous messages by the AI
+
 Prompt Processing (pp): speed of processing the prompt, generally this is significantly faster on NVidia than other options. 
+
 Context: Every message is turned into "tokens" each token is anywhere from 1 letter to a short phrase. The tokens and their association are considered the "context".
+
 Token: A short series of characters (can be a single character) that is represented as a single value. models are trained on these "tokens" rather than the individual characters that make up the word. Generally 1/4 the character count is the number of tokens, however it varies by model base
+
 VRAM: Dedicated memory for your GPU, rather than your CPU. for instance, an NVidia RTX 3090 has 24GB VRAM, and a GTX 1080 TI has 11 GB vram. This effectively controls how big a model you can load.
+
 Kobold CPP: The current version of Kobold, this is where you are now.
+
 Kobold AI: an older version of Kobold run on Python instead of C++, no longer developed
+
 Kobold Lite: The web interface of Kobold AI and Kobold CPP
+
 Quanting: Reduces size of a model by rounding numbers. A simple example is Pi being 3.14159265358979323846264338327… but being rounded to 3.14. This greatly reduces the size of the model and minimum required computer specs to run it, but it does so by reducing accuracy. The larger the size, the less impactful this is.
+
 Embeddings: Similar to Context, however its able to be stored separate from the model. Unlike context, its not a single ordered list of tokens and context, its a jumbled database instead. The database can then be searched and provide the tokens back, allowing the llm to see older messages effectively.

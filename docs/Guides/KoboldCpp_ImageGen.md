@@ -8,7 +8,7 @@ For full details, please see https://github.com/leejet/stable-diffusion.cpp
 - #### Clamped Mode
     - Primarily for multiuser, will reduce the size requested to this limit to prevent long gens from reducing usability
 - #### Image Threads
-    - See Threads in Hardware section.
+    - See [Threads](KoboldCpp_Hardware.md) in Hardware section.
 - #### Compress Weights
     - Quants the model to Q4_0 to allow it to run faster at the cost of quality. On larger models (Flux) this is more beneficial with lower cost than on smaller models (sd1.5).
 - #### Image LoRA
@@ -28,8 +28,8 @@ For full details, please see https://github.com/leejet/stable-diffusion.cpp
 - #### No VAE Tiling
     - VAE Tiling reduces memory usage of converting from Image output tokens to visible image, at cost of quality. This prevents it from being used at all.
 
-# Concedo model:
+## Concedo model:
 LostRuins/Concedo has the following available: https://huggingface.co/koboldcpp/imgmodel where older is 1.5 and the other 2 are sdxl.
 
-# Clip/T5:
+## Clip/T5:
 Clip and T5 are used simultaneously for all requests, the mentioned distinction is just for those using in highly advanced settings (ComfyUI) and not necessarily used in Kobold in this manner.

@@ -8,7 +8,7 @@ Known working hardware options:
   - Intel: Core series newer than 7th Gen should be fully compatible
   - AMD: AM4 and AM5 CPUs Should all work
   - Qualcomm: Snapdragon 888 and newer mobile CPUs should work
-  - If not working, try "old CPU", this will work on older options, including some "retro PC" builds
+  - If not working, try "old CPU", this will work on older options, including some "retro PC" builds with hardware dated the late 90s or early 2000s.
 - GPU:
   - NVidia:
     - Minimum recommended is "Pascal": the GTX 10 series over the 1050. 1030 is not recommended.

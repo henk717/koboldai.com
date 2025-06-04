@@ -1,5 +1,5 @@
 ## Tokens
-Tokens are words, phrases, or simple characters as a single numerical value. These are utilized because trying to run an AI with every single character would take vastly more ram and vram, as well as being significantly slower.
+Tokens are words, phrases, or simple characters as a single numerical value. These are utilized because trying to run an AI with every single character would take vastly more ram and vram, as well as being significantly slower.  
 The following will show you how an AI sees your text: https://huggingface.co/spaces/Xenova/the-tokenizer-playground
 
 ## Token options in launcher:
