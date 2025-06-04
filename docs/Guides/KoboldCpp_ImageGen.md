@@ -28,6 +28,8 @@ For full details, please see https://github.com/leejet/stable-diffusion.cpp
 - #### No VAE Tiling
     - VAE Tiling reduces memory usage of converting from Image output tokens to visible image, at cost of quality. This prevents it from being used at all.
 
+# Concedo model:
+LostRuins/Concedo has the following available: https://huggingface.co/koboldcpp/imgmodel where older is 1.5 and the other 2 are sdxl.
 
 # Clip/T5:
 Clip and T5 are used simultaneously for all requests, the mentioned distinction is just for those using in highly advanced settings (ComfyUI) and not necessarily used in Kobold in this manner.
