@@ -209,9 +209,16 @@ Also check out /lmg/, r/KoboldAI and r/LocalLLaMA/
 [Simplified LLAMA Guide](https://rentry.org/TESFT-LLaMa#koboldcpp-windows)  
 [Compiling on Windows, A quick guide](https://github.com/LostRuins/koboldcpp/issues/664)
 
-### Notable Forks (They may have special features)  
-https://github.com/henk717/koboldcpp  
-https://github.com/ycros/koboldcpp  
-https://github.com/YellowRoseCx/koboldcpp-rocm  
-https://github.com/0cc4m/koboldcpp  
-https://github.com/SammCheese/koboldcpp  
+### Notable Forks (They may have special features)
+https://github.com/YellowRoseCx/koboldcpp-rocm
+ - ROCM on Windows, for those who use amd cards and dont want vulkan.
+https://github.com/esolithe/esobold/
+ - Updates to Kobold Lite and some new features in Koboldcpp to support it.
+https://github.com/Nexesenex/croco.cpp
+ - Inferencing enhancements that do not fit within the base because of incompatibility with upstrteam Llama.cpp
+
+
+https://github.com/henk717/koboldcpp
+https://github.com/ycros/koboldcpp
+https://github.com/0cc4m/koboldcpp
+https://github.com/SammCheese/koboldcpp
