@@ -1,5 +1,4 @@
 # KoboldCpp API
-For swagger.json, click here or use online version.
 
 ## Version: 2025.06.03
 
