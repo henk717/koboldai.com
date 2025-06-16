@@ -1,0 +1,36 @@
+
+Full descriptions of launcher settings:
+### Quick Launch:
+- #### Presets
+    - Use CPU: This will ignore your GPU if you have one. rarely the best option.
+    - use CuBLAS: This will use Cuda on an NVidia GPU. if you have no NVidia GPU, then do not use (unless you know what you are doing)
+    - Use Vulkan: This will use Vulkan on any GPU or APU. This is recommended for Intel GPUs as the default option, and for AMD GPUs when ROCM isnt an option.
+    - Use CLBlast: This is a graphics card agnostic option like Vulkan, but generally slower.
+    - (old cpu) options: like the above, however they should be used only as a fallback when the above has a crash related to hardware incompatibility.
+- #### GPU ID:
+    - This will show up to 4 GPUs on your system, you can use this to select which GPU to utilize, or use the "ALL" option to utilize all available GPUs.
+- #### GPU Layers:
+    - Layers are parts of a model, different models will have different numbers of layers, such as Gemma 3 having 63 layers. There will not be a comprehensive list provided as every model has a different count. Other than the first layer (input) and last layer (output) Layers are generally the same size. typically this means you can divide the file size by the layer count to determine the size of each layer.
+    - This setting tells kobold how much of the model to put on the GPU and how much should remain on the system ram, more layers on GPU will generally be faster.
+    - -1: This will attempt to find the amount of vram available and set the model to offload a layer less than the expected max capacity. This generally will work, but manual editing can get it more precise.
+    - Any other number: if the number is greater than the number of layers in the model, it will load all layers on the GPU. 
+- #### Launch Browser:
+    - This will use your system default HTTP/HTTPS protocol handler to open the browser. (This will open your default browser to kobold automatically once the model is loaded)
+- #### Use MMAP: 
+    - Use Memory Map, this generally speeds up loading of the model as it "holds" the memory when it starts loading rather than waiting for it to need more memory to load the next chunk of the model. On some hardware this causes the model to not "unload" properly, but generally should be safe to enable
+- #### Use ContextShift:
+    - reduces reprocessing when continuing a conversation with the LLM. Very rarely will turning this off provide benefits, however some models do fail with it.
+- #### Remote Tunnel:
+    - Creates a public URL for you to access remotely. the public URL will be in the log and will last up to 3 days. Closing the program will close the tunnel early
+- #### Quiet Mode:
+    - Do not display messages in the log. Use this to hide what other people send your system if you dont want to know.
+- #### Use FlashAttention: 
+    - This is disabled by default due to being hardware and model dependent.
+    - On NVidia and some AMD GPUs this will significantly improve prompt processing.
+    - On CPU and some AMD GPUs this will significantly degrade prompt processing
+    - If you do not have full offload of the model (set GPU layers to max) then this may cause slowdowns
+- #### Context Size:
+    - How much information the model can see at once. See "Context" in begginer dictionary
+- #### GGUF Text Model:
+    - You can download from HuggingFace or a few other smaller options a GGUF or GGML file, GGML being an older and no longer recommended format.
+    - If you do not feel like downloading manually, you can use HF Search to automatically download the model
