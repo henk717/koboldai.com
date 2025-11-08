@@ -19,4 +19,4 @@ Everything you want to know for your start with KoboldAI's solutions you find on
 
 ## Community
 
-Consider joining our community for support, discussions, and sharing on our [Discord Server](https://discord.gg/koboldai)
+Consider joining our community for support, discussions, and sharing on our [Discord Server](https://koboldai.org/discord)
